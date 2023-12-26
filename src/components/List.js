@@ -4,7 +4,7 @@ function ListKey() {
   const players = ["Virat Kohli", "Chrish gayle", "Rohit Sharma"];
   return (
     <>
-      <Link to="/">gender</Link>
+      {/* <Link to="/">gender</Link> */}
       {players.map((player, index) => (
         <Players player={player} key={index} />
       ))}

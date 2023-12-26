@@ -13,7 +13,7 @@ import Events from "./components/Events";
 import ShowAnotherComponent from "./components/ShowAnotherComponent";
 import CounterClassComponent from "./components/classComponents/CounterClassComponent";
 import Debouncing from "./components/Debouncing";
-import Memoization from "./components/Memoization";
+import Memoization from "./components/Memoization"; 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Memoization />);
+root.render(<GenderSelection />);
