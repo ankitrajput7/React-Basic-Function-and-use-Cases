@@ -4,6 +4,7 @@ const initialState = {
   name: "Ankit",
   mobile: "7247078841",
 };
+
 const userSlice = createSlice({
   name: "user",
   initialState,

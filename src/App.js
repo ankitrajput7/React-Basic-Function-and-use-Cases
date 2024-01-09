@@ -13,7 +13,8 @@ import Events from "./components/Events";
 import ShowAnotherComponent from "./components/ShowAnotherComponent";
 import CounterClassComponent from "./components/classComponents/CounterClassComponent";
 import Debouncing from "./components/Debouncing";
-import Memoization from "./components/Memoization"; 
+import Memoization from "./components/Memoization";
+import TicTocToeGame from "./components/TicTocToeGame";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<GenderSelection />);
+root.render(<TicTocToeGame />);

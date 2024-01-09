@@ -15,8 +15,8 @@ class CounterClassComponent extends React.Component {
     console.log("componentdidMount 1");
   }
 
-  componentDidUpdate() {
-    console.log("componentdidUpdate 1");
+  componentDidUpdate(prevProp, prevState, snapshot) {
+    console.log(prevProp, prevState, snapshot, "componentdidUpdate 1");
   }
 
   componentWillUnmount() {
@@ -31,7 +31,7 @@ class CounterClassComponent extends React.Component {
         <h1>count : {this.state.count}</h1>
         <button
           onClick={() => {
-            this.setState((prevState) => {
+            this.setState((prevState, prop) => {
               return {
                 count: prevState.count + 1,
               };
